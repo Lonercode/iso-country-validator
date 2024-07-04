@@ -34,6 +34,7 @@ const countries = require('iso-country-validator');
 
 console.log(countries.checkCountryValidity('nigeria')); // true
 console.log(isValidCountryName('Nigeria')); // true
+console.log(isValidCountryName('NG')); // true
 console.log(isValidCountryName('narnia')); // false
 ```
 The input is not case sensitive and would work irrespective of whether the letters are in capital or not.
@@ -59,5 +60,3 @@ Contributions are welcome! Feel free to open issues or pull requests for any imp
 4. Push to the branch (`git push origin feature/awesome-feature`).
 5. Open a pull request.
 
-
----
