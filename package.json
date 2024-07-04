@@ -1,0 +1,17 @@
+{
+  "name": "iso-country-validator",
+  "version": "1.0.0",
+  "description": "Includes a complete list of countries and country name validation based on ISO standards.",
+  "main": "country-check.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "country-list",
+    "countries",
+    "country-validation",
+    "country-names"
+  ],
+  "author": "Lonercode",
+  "license": "ISC"
+}
