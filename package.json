@@ -1,6 +1,6 @@
 {
   "name": "iso-country-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Includes a complete list of countries and country name validation based on ISO standards.",
   "main": "country-check.js",
   "scripts": {

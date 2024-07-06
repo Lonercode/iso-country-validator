@@ -33,9 +33,9 @@ You can validate if a given string is a valid country name using the `checkCount
 const countries = require('iso-country-validator');
 
 console.log(countries.checkCountryValidity('nigeria')); // true
-console.log(isValidCountryName('Nigeria')); // true
-console.log(isValidCountryName('NG')); // true
-console.log(isValidCountryName('narnia')); // false
+console.log(countries.checkCountryValidity('Nigeria')); // true
+console.log(countries.checkCountryValidity('NG')); // true
+console.log(countries.checkCountryValidity('narnia')); // false
 ```
 The input is not case sensitive and would work irrespective of whether the letters are in capital or not.
 
